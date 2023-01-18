@@ -1,0 +1,13 @@
+package main;
+
+public class main {
+    public static void Main(String[]args){
+       int a=10;
+       int b=30;
+       int c=20;
+      System.out.print(suma(a,b,c));
+    }
+    public static int suma(int a, int b, int c){
+       return a + b +c;
+    }
+}
